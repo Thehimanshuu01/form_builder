@@ -1,10 +1,5 @@
 <?php
-/**
- * Password Hash Generator
- * Use this script to generate password hashes for admin users
- * 
- * SECURITY WARNING: Delete this file after use!
- */
+
 
 $generatedHash = '';
 $error = '';
