@@ -1,9 +1,4 @@
 <?php
-/**
- * Quick Fix: Update Admin Password
- * Run this file once to fix the admin password
- */
-
 require_once 'config/config.php';
 
 // Set your desired password here
