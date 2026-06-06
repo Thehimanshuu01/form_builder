@@ -1,0 +1,32 @@
+===================================================
+XAMPP Apache Port Change Instructions
+===================================================
+
+Since IIS is using port 80, you can configure XAMPP to use port 8080:
+
+1. Open XAMPP Control Panel
+2. Click "Config" button next to Apache
+3. Select "httpd.conf"
+4. Find this line:
+   Listen 80
+   
+5. Change it to:
+   Listen 8080
+
+6. Find this line:
+   ServerName localhost:80
+   
+7. Change it to:
+   ServerName localhost:8080
+
+8. Save the file
+9. Restart Apache in XAMPP Control Panel
+
+10. Update your config.php file:
+    Change: http://localhost/himanshu
+    To: http://localhost:8080/himanshu
+
+11. Access your site at:
+    http://localhost:8080/himanshu/admin/login.php
+
+===================================================
